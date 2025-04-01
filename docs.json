@@ -11,25 +11,76 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "User Guide",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Getting Started",
             "pages": [
-              "introduction",
-              "quickstart",
-              "development"
+              "user_guide/introduction",
+              "user_guide/getting_started",
+              "user_guide/onboarding_faq"
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Core Features",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "user_guide/analytics",
+              "user_guide/data",
+              "user_guide/engagement_tools",
+              "user_guide/message_building_by_channel",
+              "user_guide/personalization_and_dynamic_content",
+              "user_guide/administrative"
+            ]
+          },
+          {
+            "group": "Privacy & Compliance",
+            "pages": [
+              "user_guide/privacy_portal"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Developer Guide",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "developer_guide/home",
+              "developer_guide/getting_started",
+              "developer_guide/sdk_integration",
+              "developer_guide/platforms"
+            ]
+          },
+          {
+            "group": "Core Features",
+            "pages": [
+              "developer_guide/analytics",
+              "developer_guide/content_cards",
+              "developer_guide/banner_cards",
+              "developer_guide/in_app_messages",
+              "developer_guide/push_notifications",
+              "developer_guide/feature_flags",
+              "developer_guide/braze_actions"
+            ]
+          },
+          {
+            "group": "Advanced Features",
+            "pages": [
+              "developer_guide/live_notifications",
+              "developer_guide/disclosures",
+              "developer_guide/geofences",
+              "developer_guide/news_feed",
+              "developer_guide/localization",
+              "developer_guide/network",
+              "developer_guide/storage"
+            ]
+          },
+          {
+            "group": "Resources",
+            "pages": [
+              "developer_guide/references",
+              "developer_guide/changelogs"
             ]
           }
         ]
